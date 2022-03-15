@@ -27,40 +27,48 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você instalou a versão mais recente de `nodeJS>`
 * Você tem uma máquina `<Windows / Linux / Mac>`. 
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+* Você leu instalou a última versão de Docker
 
 ## 🚀 Instalando React Landing Page
 
-Para instalar o <React Landing Page>, siga estas etapas:
+Para instalar o React Landing Page, siga estas etapas:
 
-Linux e macOS:
-```
-<comando_de_instalação>
-```
-
-Windows:
-```
-<comando_de_instalação>
-```
-
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
+Começe clonando o projeto para sua máquina:
 
 ```
-<exemplo_de_uso>
+git clone https://github.com/gustavocabraltv/01-LP.git
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para <nome_do_projeto>
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+## ☕ Usando React Landing Page
 
-1. Bifurque este repositório.
+Para usar React Landing Page, siga estas etapas:
+
+#Storybook
+Acesse a pasta app e em seguida inicie o storybook
+
+```
+cd app 
+yarn story book
+```
+
+Para rodar o strapi, acesse a pasta rodando os comandos:
+
+```
+cd strapi
+docker-compose pull
+docker-compose up -d
+```
+
+
+## 📫 Contribuindo para React Landing Page
+
+Para contribuir com React Landing Page, siga estas etapas:
+
+1. Clone este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
 3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+4. Envie para o branch original: `git push origin main/ <local>`
 5. Crie a solicitação de pull.
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
