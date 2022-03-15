@@ -1,4 +1,4 @@
-# Landing Page + Strapi + Typescript + GraphQL 
+# React Landing Page + Strapi + Typescript + GraphQL 
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -29,9 +29,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina `<Windows / Linux / Mac>`. 
 * Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando React Landing Page
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o <React Landing Page>, siga estas etapas:
 
 Linux e macOS:
 ```
