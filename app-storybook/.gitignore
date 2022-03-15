@@ -1,0 +1,17 @@
+# dependeecies
+/node_modules
+/.pnp
+/pnp.js
+# testing
+/coverage
+
+# production
+/build
+
+/DS_Store
+.env.local
+.env.development.local
+
+
+# misc
+npm-debug.log*

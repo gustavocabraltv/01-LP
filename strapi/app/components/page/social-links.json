@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Twitter",
+        "Dribble",
+        "Linkedin"
+      ],
+      "default": "Twitter",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

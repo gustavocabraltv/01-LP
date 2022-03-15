@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "landingPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "aboutSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-section"
+    },
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-us"
+    }
+  }
+}
