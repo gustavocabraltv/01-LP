@@ -4,14 +4,24 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyles from './styles/global'
-import { ThemeProvider } from 'styled-components'
-import theme from './styles/theme'
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  useQuery,
+  gql
+} from "@apollo/client";
+
+import Client from '../src/graphql/client'
+
 
 ReactDOM.render(
   <React.StrictMode>
-
-    <GlobalStyles />
-    <App />
+    <ApolloProvider client={Client}>
+      <GlobalStyles />
+  
+      <App /> 
+    </ApolloProvider>
 
   </React.StrictMode>,
   document.getElementById('root')
