@@ -8,7 +8,7 @@ export type LogoProps = {
      description: string
  }
 
-export type landingPageProps = {
+export type LandingPageProps = {
 	logo: LogoProps
     header: HeaderProps
 }
