@@ -52,10 +52,16 @@ cd app
 yarn story book
 ```
 
-Para rodar o strapi, acesse a pasta rodando os comandos:
+#strapi
+Antes de iniciar o Strapi é preciso deletar a pasta "/data", localizada dentro da pasta "/strapi", para isso rode o comando:
+```
+cd strapi rm -rf data
+```
+Para iniciar o Strapi rode os seguintes comandos:
 
 ```
 cd strapi
+rm -rf data
 docker-compose pull
 docker-compose up -d
 ```
