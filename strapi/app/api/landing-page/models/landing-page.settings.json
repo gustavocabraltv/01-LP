@@ -27,7 +27,7 @@
       "repeatable": false,
       "component": "page.about-us"
     },
-    "Logo": {
+    "logo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

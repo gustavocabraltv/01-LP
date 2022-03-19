@@ -15,6 +15,7 @@ const onClick = () =>
 type Props = { 
   header: HeaderProps
   logo: LogoProps
+
 }
 
 const SectionHero = ({header, logo}: Props) => (
